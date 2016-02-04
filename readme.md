@@ -5,7 +5,7 @@ The Cestino as a 20MHz ATmega1284p based Arduino-compatible, derived from Arduin
 The Cestino bootloader is Optiboot from late summer 2015 (needs to be brought in sync with current optiboot) compiled against Arduino 1.6.5. Core libraries are Arduino 1.6.5 standard. This bootloader works when burned by 1.6.7 and appears completely compatible with 1.6.7, but I have not tested building it against 1.6.7 source code yet. All Arduino versions in this document refer to the real Arduino IDE, from Arduino.cc aka Genuino.
 
 ***
-##How to Install the Cestino Hardware Package. 
+##How to Install the Cestino Hardware Package 
 ***
 Use cd to dive into your_sketchbook_directory/hardware. If there's no hardware directory in your sketchbook, create one and go there. Clone this archive to a directory called cestino with this command:
 

@@ -12,7 +12,7 @@ Use cd to dive into your_sketchbook_directory/hardware. If there's no hardware d
 or, if you downloaded the zip archive, rename the folder Cestino_Hardware-master to cestino, and move that to your hardware directory.
 
  The resulting directory tree should look something like this:
-
+```
 		your_sketchbook_directory_name/hardware
 		└── cestino
 		    ├── avr
@@ -20,7 +20,7 @@ or, if you downloaded the zip archive, rename the folder Cestino_Hardware-master
 		    │   ├── boards.txt~
 		    │   ├── boot.h
 		    │   ├── bootloaders
-			 │	  │	└── optiboot
+		    |	  |	└── optiboot
 		    │   ├── libraries
 		    │   ├── mkfile-not-used
 		    │   ├── oldboards.txt
@@ -32,14 +32,14 @@ or, if you downloaded the zip archive, rename the folder Cestino_Hardware-master
 		    │   ├── variants
 		    │   └── Wire
 		    └── readme.md
-
+```
 Arduino should do the rest.
 ***
 ##Build Instructions
 ***
 
 Use cd to get into the bootloaders/optiboot directory, here:
-
+```
 		your_sketchbook_directory_name/hardware
 		└── cestino
 		    └── avr
@@ -48,7 +48,7 @@ Use cd to get into the bootloaders/optiboot directory, here:
 		        ├── boot.h
 		        └── bootloaders
            	      └── optiboot <-- here
-
+```
 and type:
 
 		$make cestino1284p

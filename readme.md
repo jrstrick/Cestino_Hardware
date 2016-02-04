@@ -1,4 +1,4 @@
-#Cestino Hardware
+﻿#Cestino Hardware
 ***
 The Cestino as a 20MHz ATmega1284p based Arduino-compatible, derived from Arduino Mighty and Sanguino. It is designed to be assembled on a breadboard, so its pin numbers are identical to the ATmega1284p IC's pin numbers, including starting with 1 and having gaps for the reset pin, clock pin, and so on. It's fast, cheap to build, and powerful. In case you wondered, Cestino is Italian for "Recycle Bin," like the one you drop files in on Windows. It's so named because its breadboard-resident nature makes recycling old ICs out of obsolete devices much simpler.
 
@@ -20,7 +20,7 @@ or, if you downloaded the zip archive, rename the folder Cestino_Hardware-master
 		    │   ├── boards.txt~
 		    │   ├── boot.h
 		    │   ├── bootloaders
-		    |	  |	└── optiboot
+		    │   │  	└── optiboot
 		    │   ├── libraries
 		    │   ├── mkfile-not-used
 		    │   ├── oldboards.txt

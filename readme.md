@@ -5,7 +5,14 @@
 ***
 ##How to Install the Cestino Hardware Package. 
 ***
-Use cd to dive into your_sketchbook_directory/hardware. Drop the cestino folder from the archive there. The resulting directory tree should look something like this:
+Use cd to dive into your_sketchbook_directory/hardware. If there's no hardware directory in your sketchbook, create one and go there. Clone this archive to a directory called cestino with this command:
+
+		$git clone https://github.com/jrstrick/Cestino_Hardware.git cestino
+
+or, if you downloaded the zip archive, rename the folder Cestino_Hardware-master to cestino, and move that to your hardware directory.
+
+ The resulting directory tree should look something like this:
+
 		your_sketchbook_directory_name/hardware
 		└── cestino
 		    ├── avr
@@ -25,12 +32,14 @@ Use cd to dive into your_sketchbook_directory/hardware. Drop the cestino folder 
 		    │   ├── variants
 		    │   └── Wire
 		    └── readme.md
+
 Arduino should do the rest.
 ***
 ##Build Instructions
 ***
 
 Use cd to get into the bootloaders/optiboot directory, here:
+
 		your_sketchbook_directory_name/hardware
 		└── cestino
 		    └── avr
@@ -41,5 +50,7 @@ Use cd to get into the bootloaders/optiboot directory, here:
            	      └── optiboot <-- here
 
 and type:
+
 		$make cestino1284p
+
 It should just work.

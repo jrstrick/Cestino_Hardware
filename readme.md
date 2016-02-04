@@ -49,7 +49,7 @@ Use cd to get into the bootloaders/optiboot directory, here:
 		        ├── boards.txt~
 		        ├── boot.h
 		        └── bootloaders
-           	            └── optiboot <-- here
+						└── optiboot <-- here
 ```
 and type:
 

@@ -20,7 +20,7 @@ or, if you downloaded the zip archive, rename the folder Cestino_Hardware-master
 		    │   ├── boards.txt~
 		    │   ├── boot.h
 		    │   ├── bootloaders
-			 │	  │   └── optiboot
+			 │	  │	└── optiboot
 		    │   ├── libraries
 		    │   ├── mkfile-not-used
 		    │   ├── oldboards.txt
